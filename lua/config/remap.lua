@@ -16,3 +16,8 @@ keyset("i", "[", "[]<ESC>ha")
 keyset("i", "(", "()<ESC>ha")
 keyset("i", "'", "''<ESC>i")
 
+--keep cursor at the middle of the screen when scrolling
+keyset("n", "<C-d>", "<C-d>zz")
+keyset("n", "<C-u>", "<C-u>zz")
+
+

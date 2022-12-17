@@ -1,4 +1,46 @@
-vim.opt.tabstop = 2
-vim.opt.guifont = "FiraCode Nerd Font 11"
-vim.opt.number = true
-vim.opt.shiftwidth = 2
+local set = vim.opt
+
+set.tabstop = 2
+set.guifont = "FiraCode Nerd Font 11"
+set.number = true
+set.shiftwidth = 2
+set.relativenumber = true
+set.scrolloff = 8
+set.smartindent = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
