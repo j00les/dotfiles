@@ -1,0 +1,5 @@
+{
+  "tsserver.implicitProjectConfig.module": "CommonJS",
+  "suggest.maxCompleteItemCount": 20,
+  "coc.preferences.formatOnSave": true
+}
