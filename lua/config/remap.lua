@@ -4,11 +4,11 @@ local opts = {silent = true, noremap = true, expr = true, replace_keycodes = fal
 --enter to confirm coc-intellisense
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 
---FZF trigger
+--file tree trigger
 keyset("n", "<C-b>", ":NERDTreeToggle<CR>")
 
---file tree trigger
-keyset("n", "<C-p>", ":FZF<CR>", {silent = true})
+--FZF trigger(xtrlp)
+keyset("n", "<C-p>", ":All<CR>", {silent = true})
 
 --autocomplete bracket
 keyset("i", "{", "{}<ESC>ha")

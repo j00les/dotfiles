@@ -6,6 +6,5 @@ vim.opt.writebackup = false
 -- delays and poor user experience
 vim.opt.updatetime = 300
 
-vim.cmd('command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument")')
 
 
