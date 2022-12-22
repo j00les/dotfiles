@@ -26,11 +26,28 @@ keyset({"n", "i"},"<C-s>",":wa<CR>", {silent = true})
 --ctrl-c to copy to clipboard dependency = (sudo apt install xclip)
 keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
 
+-- decrease width
+keyset("n", "<C-H>", "<C-W><")
 
+-- increase width
+keyset("n", "<C-L>", "<C-W>>")
 
+-- decrease height
+keyset("n", "<C-K>", "<C-W>-")
 
+-- increase height
+keyset("n", "<C-J>", "<C-W>+" )
 
+-- move window in normal
+keyset("n", "<A-h>", "<C-w>h")
+keyset("n", "<A-j>", "<C-w>j")
+keyset("n", "<A-k>", "<C-w>k")
+keyset("n", "<A-l>", "<C-w>l")
 
-
+-- create windows using H, J, K, L
+keyset("n", "<A-H>", "<C-w>v")
+keyset("n", "<A-J>", "<C-w>s<C-w>k")
+keyset("n", "<A-K>", "<C-w>s")
+keyset("n", "<A-L>", "<C-w>v<C-w>h")
 
 
