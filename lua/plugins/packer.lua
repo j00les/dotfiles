@@ -10,7 +10,6 @@ return require('packer').startup(function(use)
 	use 'Mofiqul/vscode.nvim'
 	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end }
 	use 'junegunn/fzf.vim' 
-	use 'junegunn/fzf.vim' 
 	use 'Mofiqul/dracula.nvim'
 	use 'scrooloose/nerdtree'
 	use 'mattn/emmet-vim'
@@ -19,6 +18,6 @@ return require('packer').startup(function(use)
 	use 'shaunsingh/nord.nvim'
 	use 'martinsione/darkplus.nvim'
 	use 'gregsexton/MatchTag'
-
+	use ({'turbio/bracey.vim', run ='npm install --prefix server'})
 end)
 

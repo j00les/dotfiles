@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  MatchTag = {
+    loaded = true,
+    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/MatchTag",
+    url = "https://github.com/gregsexton/MatchTag"
+  },
+  ["bracey.vim"] = {
+    loaded = true,
+    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/bracey.vim",
+    url = "https://github.com/turbio/bracey.vim"
+  },
   ["coc.nvim"] = {
     loaded = true,
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/coc.nvim",
