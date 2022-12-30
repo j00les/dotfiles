@@ -89,25 +89,10 @@ _G.packer_plugins = {
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
-  ["darkplus.nvim"] = {
-    loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
-    url = "https://github.com/martinsione/darkplus.nvim"
-  },
-  ["dracula.nvim"] = {
-    loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
-  },
   ["emmet-vim"] = {
     loaded = true,
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
-  },
-  everforest = {
-    loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/everforest",
-    url = "https://github.com/sainnhe/everforest"
   },
   fzf = {
     loaded = true,
@@ -124,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/scrooloose/nerdtree"
   },
-  ["nord.nvim"] = {
-    loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/nord.nvim",
-    url = "https://github.com/shaunsingh/nord.nvim"
-  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -143,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/j00les/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-devicons"] = {
     loaded = true,
