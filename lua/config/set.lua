@@ -9,39 +9,3 @@ set.scrolloff = 8
 set.smartindent = true
 set.wrap = true
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

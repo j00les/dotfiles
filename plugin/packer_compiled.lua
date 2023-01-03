@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/j00les/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/j00les/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/j00les/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/j00les/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/j00les/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/pc/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/pc/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/pc/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/pc/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/pc/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,77 +76,77 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   MatchTag = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/MatchTag",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/MatchTag",
     url = "https://github.com/gregsexton/MatchTag"
   },
   ["bracey.vim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/bracey.vim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/bracey.vim",
     url = "https://github.com/turbio/bracey.vim"
   },
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   ["emmet-vim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
   fzf = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/fzf",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/fzf",
     url = "https://github.com/junegunn/fzf"
   },
   ["fzf.vim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
   nerdtree = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/nerdtree",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/scrooloose/nerdtree"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   sonokai = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/sonokai",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
   },
   ultisnips = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/ultisnips",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/ultisnips",
     url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-devicons"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
   },
   ["vim-polyglot"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/vim-polyglot",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/vim-polyglot",
     url = "https://github.com/sheerun/vim-polyglot"
   },
   ["vim-surround"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/vim-surround",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
   ["vscode.nvim"] = {
     loaded = true,
-    path = "/home/j00les/.local/share/nvim/site/pack/packer/start/vscode.nvim",
+    path = "/home/pc/.local/share/nvim/site/pack/packer/start/vscode.nvim",
     url = "https://github.com/Mofiqul/vscode.nvim"
   }
 }
