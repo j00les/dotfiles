@@ -25,12 +25,12 @@ keyset("n", "<C-u>", "<C-u>zz")
 keyset({"n", "i"},"<C-s>",":wa<CR>", {silent = true})
 
 --ctrl-c to copy to clipboard 
--- on windows system dependency = vcredist 
+-- on windows system; dependency = vcredist 
 -- https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-wsl
-keyset("v","<C-c>",'"+y')
+--keyset("v","<C-c>",'"+y')
 
--- on unix system dependency = (sudo apt install xclip)
---keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
+ --on unix system; dependency = (sudo apt install xclip)
+	keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
 
 -- decrease width
 keyset("n", "<C-H>", "<C-W><")
@@ -55,4 +55,8 @@ keyset("n", "<A-H>", "<C-w>v")
 keyset("n", "<A-J>", "<C-w>s<C-w>k")
 keyset("n", "<A-K>", "<C-w>s")
 keyset("n", "<A-L>", "<C-w>v<C-w>h")
+
+
+keyset("t", "<Esc>", "<C-\\><C-n>")
+
 
