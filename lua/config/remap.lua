@@ -50,13 +50,19 @@ keyset("n", "<A-j>", "<C-w>j")
 keyset("n", "<A-k>", "<C-w>k")
 keyset("n", "<A-l>", "<C-w>l")
 
--- create windows using H, J, K, L
-keyset("n", "<A-H>", "<C-w>v")
-keyset("n", "<A-J>", "<C-w>s<C-w>k")
-keyset("n", "<A-K>", "<C-w>s")
-keyset("n", "<A-L>", "<C-w>v<C-w>h")
+-- create windows using H, J, K, L (linux)
+--keyset("n", "<A-H>", "<C-w>v")
+--keyset("n", "<A-J>", "<C-w>s<C-w>k")
+--keyset("n", "<A-K>", "<C-w>s")
+--keyset("n", "<A-L>", "<C-w>v<C-w>h")
 
+-- create windows using H, J, K, L (mac 2015)
+keyset("n", "˙", "<C-w>v")
+keyset("n", "∆", "<C-w>s<C-w>k")
+keyset("n", "˚", "<C-w>s")
+keyset("n", "¬", "<C-w>v<C-w>h")
 
+--escape terminal mode
 keyset("t", "<Esc>", "<C-\\><C-n>")
 
 

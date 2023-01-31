@@ -1,5 +1,4 @@
 vim.cmd.packadd('packer.nvim')
-
 return require('packer').startup(function(use)  
 	use 'wbthomason/packer.nvim'
 	use {'neoclide/coc.nvim', branch = 'release'}
@@ -12,6 +11,5 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-surround'
 	use 'gregsexton/MatchTag'
 	use ({'turbio/bracey.vim', run ='npm install --prefix server'})
-	use 'SirVer/ultisnips'
 end)
 
