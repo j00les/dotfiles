@@ -1,5 +1,8 @@
 {
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "javascript.suggest.enabled": true,
   "javascript.autoClosingTags": true,
   "tsserver.implicitProjectConfig.module": "CommonJS",
@@ -7,5 +10,20 @@
   "coc.preferences.formatOnSave": true,
   "eslint.enable": true,
   "eslint.format.enable": true,
-  "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true,
+  "languageserver": {
+    "graphql": {
+      "command": "graphql-lsp",
+      "args": [
+        "server",
+        "-m",
+        "stream"
+      ],
+      "filetypes": [
+        "typescript",
+        "typescriptreact",
+        "graphql"
+      ]
+    }
+  }
 }
