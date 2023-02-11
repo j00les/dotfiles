@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["FixCursorHold.nvim"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/FixCursorHold.nvim",
+    url = "https://github.com/antoinemadec/FixCursorHold.nvim"
+  },
   MatchTag = {
     loaded = true,
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/MatchTag",
@@ -104,6 +109,16 @@ _G.packer_plugins = {
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/fzf.vim",
     url = "https://github.com/junegunn/fzf.vim"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "https://github.com/lukas-reineke/indent-blankline.nvim"
+  },
+  neotest = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/neotest",
+    url = "https://github.com/nvim-neotest/neotest"
+  },
   nerdtree = {
     loaded = true,
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/nerdtree",
@@ -114,15 +129,30 @@ _G.packer_plugins = {
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ts-context-commentstring"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
+    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
   sonokai = {
     loaded = true,
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-devicons"] = {
     loaded = true,
@@ -138,6 +168,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-test"] = {
+    loaded = true,
+    path = "/Users/it230118/.local/share/nvim/site/pack/packer/start/vim-test",
+    url = "https://github.com/vim-test/vim-test"
   },
   ["vscode.nvim"] = {
     loaded = true,

@@ -1,5 +1,11 @@
 {
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.enabled": true,
+  "javascript.autoClosingTags": true,
   "tsserver.implicitProjectConfig.module": "CommonJS",
   "suggest.maxCompleteItemCount": 20,
-  "coc.preferences.formatOnSave": true
+  "coc.preferences.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.autoFixOnSave": true
 }

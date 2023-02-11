@@ -1,9 +1,10 @@
-local keyset = vim.keymap.set
-local opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
+--act as global variable
+vim.g.mapleader = ' ' 
+keyset = vim.keymap.set
+opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
 
 --enter to confirm coc-intellisense
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
-
 
 --file tree trigger
 keyset("n", "<C-b>", ":NERDTreeToggle<CR>")
@@ -27,10 +28,10 @@ keyset({"n", "i"},"<C-s>",":wa<CR>", {silent = true})
 --ctrl-c to copy to clipboard 
 -- on windows system; dependency = vcredist 
 -- https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-wsl
---keyset("v","<C-c>",'"+y')
+keyset("v","<C-c>",'"+y')
 
- --on unix system; dependency = (sudo apt install xclip)
-	keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
+--on unix system; dependency = (sudo apt install xclip)
+--keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
 
 -- decrease width
 keyset("n", "<C-H>", "<C-W><")
@@ -50,6 +51,7 @@ keyset("n", "<A-j>", "<C-w>j")
 keyset("n", "<A-k>", "<C-w>k")
 keyset("n", "<A-l>", "<C-w>l")
 
+
 -- create windows using H, J, K, L (linux)
 --keyset("n", "<A-H>", "<C-w>v")
 --keyset("n", "<A-J>", "<C-w>s<C-w>k")
@@ -65,4 +67,12 @@ keyset("n", "¬", "<C-w>v<C-w>h")
 --escape terminal mode
 keyset("t", "<Esc>", "<C-\\><C-n>")
 
+--comment
+keyset({"v", "n"}, "<C-/>", ":Commentary<CR>")
+
+
+--
+keyset("n", "<Leader>tn", ":TestNearest -strategy=neovim<CR>")
+keyset("n", "<Leader>tf", ":TestFile -strategy=neovim<CR>")
+keyset("n", "<Leader>ts", ":TestSuite -strategy=neovim<CR>")
 
