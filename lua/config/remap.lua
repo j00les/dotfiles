@@ -70,9 +70,23 @@ keyset("t", "<Esc>", "<C-\\><C-n>")
 --comment
 keyset({"v", "n"}, "<C-/>", ":Commentary<CR>")
 
-
---
+--test
 keyset("n", "<Leader>tn", ":TestNearest -strategy=neovim<CR>")
 keyset("n", "<Leader>tf", ":TestFile -strategy=neovim<CR>")
 keyset("n", "<Leader>ts", ":TestSuite -strategy=neovim<CR>")
+
+keyset("n", "<Leader>s", ":source %<CR>")
+
+keyset("n", "<Leader>f", ":Ack! ")
+
+--buffer navigation
+keyset("n", "<Leader>n", ":bn<CR>")
+keyset("n", "<Leader>p", ":bp<CR>")
+
+--toggleterm
+keyset("n", "<Leader>t", "<Cmd>ToggleTerm direction=tab<CR>")
+keyset("n", "<Leader>h", "<Cmd>ToggleTerm direction=horizontal<CR>")
+keyset("n", "<Leader>v", "<Cmd>ToggleTerm direction=vertical<CR>")
+
+
 

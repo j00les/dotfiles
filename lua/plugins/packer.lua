@@ -26,7 +26,14 @@ return require('packer').startup(function(use)
 	    "antoinemadec/FixCursorHold.nvim",
 			"haydenmeade/neotest-jest",
 	  }
+
 	}
+	use 'joaohkfaria/vim-jest-snippets'
+	use 'SirVer/ultisnips'
+	use 'mileszs/ack.vim'
+	use 'moll/vim-node'
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup() end}
 	end)
 
 
