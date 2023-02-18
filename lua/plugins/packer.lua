@@ -8,7 +8,6 @@ return require('packer').startup(function(use)
 	use 'Mofiqul/vscode.nvim'
 	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end} 
 	use 'junegunn/fzf.vim' 
-	use 'scrooloose/nerdtree' 
 	use 'mattn/emmet-vim'
 	use({'nvim-treesitter/nvim-treesitter', run =':TSUpdate'})
 	use 'tpope/vim-surround'
@@ -27,6 +26,13 @@ return require('packer').startup(function(use)
 			"haydenmeade/neotest-jest",
 	  }
 
+	}
+	use {
+  'nvim-tree/nvim-tree.lua',
+  	requires = {
+    'nvim-tree/nvim-web-devicons', -- optional, for file icons
+ 	 },
+ 	 tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
 	use 'joaohkfaria/vim-jest-snippets'
 	use 'SirVer/ultisnips'

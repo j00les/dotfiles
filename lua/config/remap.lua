@@ -7,7 +7,7 @@ opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 
 --file tree trigger
-keyset("n", "<C-b>", ":NERDTreeToggle<CR>")
+keyset("n", "<C-b>", ":NvimTreeToggle<CR>")
 
 --FZF trigger(ctrlp)
 keyset("n", "<C-p>", ":All<CR>", {silent = true})
