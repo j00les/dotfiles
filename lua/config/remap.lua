@@ -77,7 +77,7 @@ keyset("n", "<Leader>ts", ":TestSuite -strategy=neovim<CR>")
 
 keyset("n", "<Leader>s", ":source %<CR>")
 
-keyset("n", "<Leader>f", ":Ack! ")
+keyset("n", "<Leader>f", ":Ack --ignore-case --smart-case ")
 
 --buffer navigation
 keyset("n", "<Leader>n", ":bn<CR>")

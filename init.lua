@@ -7,5 +7,4 @@ require("plugins.treesitter")
 require("plugins.coc")
 require("plugins.fzf")
 require("plugins.toggleterm")
-
-
+require("plugins.nvimtree")

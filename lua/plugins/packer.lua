@@ -40,6 +40,7 @@ return require('packer').startup(function(use)
 	use 'moll/vim-node'
 	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup() end}
+
 	end)
 
 
