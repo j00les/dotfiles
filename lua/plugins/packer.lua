@@ -18,29 +18,34 @@ return require('packer').startup(function(use)
 	use 'JoosepAlviste/nvim-ts-context-commentstring' 
 	use 'vim-test/vim-test'
 	use {
-	  "nvim-neotest/neotest",
-	  requires = {
-	    "nvim-lua/plenary.nvim",
-	    "nvim-treesitter/nvim-treesitter",
-	    "antoinemadec/FixCursorHold.nvim",
+		"nvim-neotest/neotest",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-treesitter/nvim-treesitter",
+			"antoinemadec/FixCursorHold.nvim",
 			"haydenmeade/neotest-jest",
-	  }
+		}
 
 	}
 	use {
-  'nvim-tree/nvim-tree.lua',
-  	requires = {
-    'nvim-tree/nvim-web-devicons', -- optional, for file icons
- 	 },
- 	 tag = 'nightly' -- optional, updated every week. (see issue #1193)
+		'nvim-tree/nvim-tree.lua',
+		requires = {
+			'nvim-tree/nvim-web-devicons', -- optional, for file icons
+		},
+		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
 	use 'joaohkfaria/vim-jest-snippets'
 	use 'SirVer/ultisnips'
 	use 'mileszs/ack.vim'
 	use 'moll/vim-node'
-	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
-  require("toggleterm").setup() end}
-
-	end)
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()		
+	require("toggleterm").setup() end}
+	use {
+		'lewis6991/gitsigns.nvim',
+		config = function()
+			require('gitsigns').setup()
+		end
+	}
+end)
 
 

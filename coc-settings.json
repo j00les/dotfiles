@@ -6,8 +6,9 @@
   "suggest.maxCompleteItemCount": 20,
   "coc.preferences.formatOnSave": true,
   "eslint.enable": true,
-  "eslint.run": "onSave",
+  // "eslint.run": "onSave",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "eslint.autoFixOnSave": true
 }
