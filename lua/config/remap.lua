@@ -65,7 +65,7 @@ keyset("n", "˚", "<C-w>s")
 keyset("n", "¬", "<C-w>v<C-w>h")
 
 --escape terminal mode
-keyset("t", "<Esc>", "<C-\\><C-n>")
+keyset("t", "<Leader><Esc>", "<C-\\><C-n>")
 
 --comment
 keyset({"v", "n"}, "<C-/>", ":Commentary<CR>")
