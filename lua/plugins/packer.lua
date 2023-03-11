@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
 		},
 		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
+	use 'voldikss/vim-floaterm'
 	use 'joaohkfaria/vim-jest-snippets'
 	use 'SirVer/ultisnips'
 	use 'mileszs/ack.vim'
