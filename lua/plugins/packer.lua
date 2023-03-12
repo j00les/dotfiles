@@ -25,7 +25,6 @@ return require('packer').startup(function(use)
 			"antoinemadec/FixCursorHold.nvim",
 			"haydenmeade/neotest-jest",
 		}
-
 	}
 	use {
 		'nvim-tree/nvim-tree.lua',

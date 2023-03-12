@@ -5,3 +5,6 @@
 vim.cmd([[command! -bang -nargs=*  All
   \ call fzf#run(fzf#wrap({'source': 'rg --files --hidden --no-ignore-vcs --glob "!{node_modules/*,.git/*}"', 'down': '20%', 'height': '50%', 'options': '--expect=ctrl-t,ctrl-x,ctrl-v --multi' }))
   ]])
+
+--FZF trigger(ctrlp)
+-- keyset("n", "<C-p>", ":All<CR>", {silent = true})

@@ -23,4 +23,7 @@ function _lazygit_toggle()
   lazygit:toggle()
 end
 
-vim.api.nvim_set_keymap("n", "<leader>g", "<cmd>lua _lazygit_toggle()<CR>", {noremap = true, silent = true})
+
+keyset("n", "<leader>g", "<cmd>lua _lazygit_toggle()<CR>", {noremap = true, silent = true})
+keyset("n", "<Leader>h", "<Cmd>ToggleTerm direction=horizontal<CR>")
+keyset("n", "<Leader>v", "<Cmd>ToggleTerm direction=vertical<CR>")

@@ -1,4 +1,3 @@
--- OR setup with some options
 require("nvim-tree").setup({
     sort_by = "case_sensitive",
     view = {
@@ -11,7 +10,20 @@ require("nvim-tree").setup({
     },
     renderer = {
       group_empty = true,
+      indent_width = 2,
+      indent_markers = {
+        enable = true,
+        inline_arrows = true,
+        icons = {
+          -- corner = "└",
+          -- edge = "│",
+          item = "│",
+          -- bottom = "─",
+          -- none = " ",
+        },
+      },
     },
+
     filters = {
       dotfiles = false,
     },
@@ -34,3 +46,5 @@ require("nvim-tree").setup({
       }
     }
   })
+
+keyset("n", "<C-b>", ":NvimTreeToggle<CR>")
