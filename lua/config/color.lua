@@ -1,1 +1,2 @@
-vim.cmd.colorscheme('sonokai')
+local color = require('vscode')
+vim.cmd('colorscheme vscode')
