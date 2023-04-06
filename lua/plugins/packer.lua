@@ -14,7 +14,6 @@ return require('packer').startup(function(use)
 	use 'gregsexton/MatchTag'
 	use 'tpope/vim-commentary'
 	use ({'turbio/bracey.vim', run ='npm install --prefix server'})
-	use "lukas-reineke/indent-blankline.nvim"
 	use 'JoosepAlviste/nvim-ts-context-commentstring' 
 	use 'vim-test/vim-test'
 	use {
