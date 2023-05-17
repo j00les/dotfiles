@@ -10,9 +10,16 @@ vim.opt.updatetime = 300
 --enter to confirm coc-intellisense
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 
--- GoTo code navigation
+-- Go To code navigation
 keyset("n", "gd", "<Plug>(coc-definition)", {silent = true})
 keyset("n", "gy", "<Plug>(coc-type-definition)", {silent = true})
 keyset("n", "gi", "<Plug>(coc-implementation)", {silent = true})
 keyset("n", "gr", "<Plug>(coc-references)", {silent = true})
 
+-- Automatically install coc extensions
+vim.g.coc_global_extensions = {
+  'coc-markdownlint',
+  'coc-json',
+  'coc-emmet',
+  'coc-tsserver'
+}
