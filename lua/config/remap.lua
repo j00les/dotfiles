@@ -12,7 +12,7 @@ keyset("i", "'", "''<ESC>i")
 
 -------------------------------------------------------------------
 --WINDOWS**
--- create windows using H, J, K, L (mac 2015)
+-- create windows using H, J, K, L (mac)
 keyset("n", "˙", "<C-w>v")
 keyset("n", "∆", "<C-w>s<C-w>k")
 keyset("n", "˚", "<C-w>s")

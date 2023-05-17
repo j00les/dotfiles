@@ -21,5 +21,6 @@ vim.g.coc_global_extensions = {
   'coc-markdownlint',
   'coc-json',
   'coc-emmet',
-  'coc-tsserver'
+  'coc-tsserver',
+  'coc-eslint'
 }
