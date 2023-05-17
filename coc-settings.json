@@ -10,5 +10,5 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // "eslint.autoFixOnSave": true
+  "eslint.autoFixOnSave": true
 }
