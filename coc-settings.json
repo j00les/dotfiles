@@ -5,7 +5,7 @@
   "tsserver.implicitProjectConfig.module": "CommonJS",
   "suggest.maxCompleteItemCount": 20,
   "coc.preferences.formatOnSave": true,
-  // "eslint.enable": true,
+  "eslint.enable": true,
   // "eslint.run": "onSave",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
