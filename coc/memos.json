@@ -1,0 +1,16 @@
+{
+  "coc-json|global": {
+    "json-schema-cache": {
+      "https://json.schemastore.org/expo-41.0.0.json": {
+        "etag": "\"0a4fb9ee1ed91:0\"",
+        "fileName": "ee7487ed1bb627cefdb206947ced6bc2.schema.json",
+        "updateTime": 1684294427448
+      },
+      "https://json.schemastore.org/babelrc.json": {
+        "etag": "\"0691efd316ad81:0\"",
+        "fileName": "ce32cad38c30a5a623bc5807f2a9141d.schema.json",
+        "updateTime": 1684301513856
+      }
+    }
+  }
+}
