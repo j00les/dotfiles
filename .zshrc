@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias rc="nvim ~/.config/.zshrc"
 alias dot="nvim ~/.config/nvim"
 alias notes="nvim ~/notes"
+alias restart="exec zsh -l"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

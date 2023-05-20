@@ -47,4 +47,8 @@ keyset("n", "<C-d>", "<C-d>zz")
 keyset("n", "<C-u>", "<C-u>zz")
 --ctrl-s save
 keyset({"n", "i"},"<C-s>",":wa<CR>", {silent = true})
+keyset("n", "<Leader>m", ":MarkdownPreview<CR>")
+
+
+
 

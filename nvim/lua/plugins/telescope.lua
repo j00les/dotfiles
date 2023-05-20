@@ -1,5 +1,5 @@
 local planets = "<CMD>lua require'telescope.builtin'.planets{}<CR>"
-local search_file = "<CMD>lua require'telescope.builtin'.find_files{hidden=true} <CR>"
+local search_file = "<CMD>lua require'telescope.builtin'.find_files{ hidden = true, previewer = false, file_ignore_patterns = { 'node_modules' } }<CR>"
 local live_grep = "<CMD>lua require'telescope.builtin'.live_grep{}<CR>"
 local grep_string = "<CMD>lua require'telescope.builtin'.grep_string{}<CR>"
 
