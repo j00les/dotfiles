@@ -1,8 +1,6 @@
-local planets = "<CMD>lua require'telescope.builtin'.planets{}<CR>"
-local search_file = "<CMD>lua require'telescope.builtin'.find_files{hidden=true} <CR>"
-local live_grep = "<CMD>lua require'telescope.builtin'.live_grep{}<CR>"
-local grep_string = "<CMD>lua require'telescope.builtin'.grep_string{}<CR>"
+local builtin = require('telescope.builtin')
 
-keyset("n","<Leader>p", live_grep)
-keyset("n","<C-p>", search_file)
-keyset("n","<C-f>", grep_string)
+vim.keymap.set('n', '<C-p>', builtin.find_files, {})
+vim.keymap.set('n', '<leader>p', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})

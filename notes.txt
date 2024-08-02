@@ -1,4 +1,0 @@
-to properly source moved .zshrc file: 
-- move it to desired folder
-- add new .zshrc on ~/.zshrc
-- add this line source ~/[desired folder]/.zshrc

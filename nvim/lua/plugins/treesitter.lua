@@ -1,4 +1,4 @@
-require'nvim-treesitter.configs'.setup {
+require'ts_context_commentstring'.setup {
   ensure_installed = {"javascript", "typescript", "html", "json", "lua", "tsx", "vim", "graphql", "go"},
   highlight = {
     enable = true,

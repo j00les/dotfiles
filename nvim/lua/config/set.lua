@@ -12,10 +12,8 @@ set.wrap = true
 set_global.loaded_netrw = 1
 set_global.loaded_netrwPlugin = 1
 set.termguicolors = true
--- set.notermguicolors = true
 set.linebreak = false 
 set.ignorecase = true
 set.smartcase = true
 vim.opt.fillchars = {eob = " "}
 set.breakindent = true
-

@@ -25,8 +25,8 @@ keyset("n", "<C-J>", "<C-W>+" ) -- increase height
 
 -------------------------------------------------------------------
 --BUFFER**
-keyset("n", "<Leader>n", ":bn<CR>")
-keyset("n", "<Leader>p", ":bp<CR>")
+keyset("n", "<Leader>bn", ":bn<CR>")
+keyset("n", "<Leader>bp", ":bp<CR>")
 
 -------------------------------------------------------------------
 --YANK**

@@ -1,4 +1,5 @@
 vim.cmd.packadd('packer.nvim')
+
 return require('packer').startup(function(use)  
 	use 'wbthomason/packer.nvim'
 	use {'neoclide/coc.nvim', branch = 'release'}
@@ -30,20 +31,21 @@ return require('packer').startup(function(use)
 		requires = {
 			'nvim-tree/nvim-web-devicons', -- optional, for file icons
 		},
-		tag = 'nightly' -- optional, updated every week. (see issue #1193)
 	}
+
+	use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+	end}
+  use 'nvim-tree/nvim-web-devicons'
 	use {
-		'nvim-telescope/telescope.nvim', tag = '0.1.1',
-		-- or                            , branch = '0.1.x',
-		requires = { {'nvim-lua/plenary.nvim'} }
+  	'nvim-telescope/telescope.nvim', tag = '0.1.8',
+  	 requires = { {'nvim-lua/plenary.nvim'} }
 	}
 	use 'voldikss/vim-floaterm'
 	use 'joaohkfaria/vim-jest-snippets'
 	use 'SirVer/ultisnips'
 	use 'mileszs/ack.vim'
 	use 'moll/vim-node'
-	use {"akinsho/toggleterm.nvim", tag = '*', config = function()		
-	require("toggleterm").setup() end}
 	use {
 		'lewis6991/gitsigns.nvim',
 		config = function()
