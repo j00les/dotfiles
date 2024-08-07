@@ -17,6 +17,7 @@ keyset("n", "˙", "<C-w>v")
 keyset("n", "∆", "<C-w>s<C-w>k")
 keyset("n", "˚", "<C-w>s")
 keyset("n", "¬", "<C-w>v<C-w>h")
+
 --window sizing
 keyset("n", "<C-H>", "<C-W><")  -- decrease width
 keyset("n", "<C-L>", "<C-W>>")  -- increase width
