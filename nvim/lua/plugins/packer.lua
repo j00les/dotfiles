@@ -54,4 +54,8 @@ return require('packer').startup(function(use)
 	}
 	use "lukas-reineke/indent-blankline.nvim"
 	use "f-person/git-blame.nvim"
+  use {
+  	"rockyzhang24/arctic.nvim",
+  	requires = { "rktjmp/lush.nvim" }
+	}
 end)

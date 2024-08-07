@@ -6,7 +6,6 @@ vim.opt.writebackup = false
 -- delays and poor user experience
 vim.opt.updatetime = 300
 
-
 --enter to confirm coc-intellisense
 keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], opts)
 
