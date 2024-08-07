@@ -21,5 +21,8 @@ vim.g.coc_global_extensions = {
   'coc-json',
   'coc-emmet',
   'coc-tsserver',
-  'coc-eslint'
+  'coc-eslint',
+  'coc-python', 
+  'coc-go',
+  '@yaegassy/coc-volar'
 }
