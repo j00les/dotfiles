@@ -33,7 +33,8 @@ keyset("n", "<Leader>bp", ":bp<CR>")
 --ctrl-c to copy to clipboard 
 -- on windows system; dependency = vcredist 
 -- https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-windows-clipboard-from-wsl
-keyset("v","<C-c>",'"+y')
+
+keyset({"v", "n"},"<C-c>",'"+y')
 --on unix system; dependency = (sudo apt install xclip)
 --keyset({"v"},"<C-c>",":'<,'>w !xclip -selection clipboard<Cr><Cr>", {silent = true})
 

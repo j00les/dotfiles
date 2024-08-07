@@ -1,5 +1,5 @@
 require'ts_context_commentstring'.setup {
-  ensure_installed = {"javascript", "typescript", "html", "json", "lua", "tsx", "vim", "graphql", "go"},
+  ensure_installed = {"javascript", "typescript", "html", "json", "lua", "tsx", "vim", "graphql", "go", "python"},
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
@@ -11,5 +11,4 @@ require'ts_context_commentstring'.setup {
   }
 
 }
-
 
