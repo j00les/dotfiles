@@ -1,3 +1,5 @@
-./coc
-./nvim/plugin
+/coc
+/nvim/plugin
+lazygit
+
 

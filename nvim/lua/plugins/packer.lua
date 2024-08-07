@@ -19,12 +19,12 @@ return require('packer').startup(function(use)
 	use 'vim-test/vim-test'
 	use {
 		"nvim-neotest/neotest",
-		requires = {
-			"nvim-lua/plenary.nvim",
-			"nvim-treesitter/nvim-treesitter",
-			"antoinemadec/FixCursorHold.nvim",
-			"haydenmeade/neotest-jest",
-		}
+		 requires = {
+				"nvim-lua/plenary.nvim",
+				"nvim-treesitter/nvim-treesitter",
+				"antoinemadec/FixCursorHold.nvim",
+				"haydenmeade/neotest-jest",
+			}
 	}
 	use {
 		'nvim-tree/nvim-tree.lua',
