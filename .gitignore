@@ -2,4 +2,7 @@
 ./nvim/plugin
 .DS_Store
 yarn
+lazygit
+iterm2
+
 
