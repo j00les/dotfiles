@@ -1,3 +1,5 @@
 ./coc
 ./nvim/plugin
+.DS_Store
+yarn
 

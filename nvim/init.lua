@@ -1,9 +1,9 @@
-
 require("plugins.packer")
 
 require("config.set")
 require("config.remap")
 require("config.color")
+
 
 require("plugins.treesitter")
 require("plugins.nvim-web-devicons")
