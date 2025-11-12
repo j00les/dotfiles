@@ -2,7 +2,25 @@ vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)  
 	use 'wbthomason/packer.nvim'
-	use {'neoclide/coc.nvim', branch = 'release'}
+
+	-- Modern LSP Setup (replaced CoC)
+	use 'neovim/nvim-lspconfig'  -- Native LSP
+	use {
+		'williamboman/mason.nvim',  -- LSP installer
+		config = function()
+			require('mason').setup()
+		end
+	}
+	use 'williamboman/mason-lspconfig.nvim'  -- Bridge mason & lspconfig
+
+	-- Autocompletion (VSCode-like)
+	use 'hrsh7th/nvim-cmp'  -- Completion engine
+	use 'hrsh7th/cmp-nvim-lsp'  -- LSP completion source
+	use 'hrsh7th/cmp-buffer'  -- Buffer completion
+	use 'hrsh7th/cmp-path'  -- Path completion
+	use 'hrsh7th/cmp-cmdline'  -- Command line completion
+	use 'saadparwaiz1/cmp_luasnip'  -- Snippet completion
+
 	use 'sainnhe/sonokai'
 	use 'Mofiqul/vscode.nvim'
 	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end}
