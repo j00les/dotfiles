@@ -3,7 +3,7 @@ vim.cmd.packadd('packer.nvim')
 return require('packer').startup(function(use)  
 	use 'wbthomason/packer.nvim'
 
-	-- Modern LSP Setup (replaced CoC)
+	-- Modern LSP Setup
 	use 'neovim/nvim-lspconfig'  -- Native LSP
 	use {
 		'williamboman/mason.nvim',  -- LSP installer
