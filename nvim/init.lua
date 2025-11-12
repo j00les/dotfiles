@@ -16,3 +16,8 @@ require("plugins.telescope")
 require("plugins.neoscroll")
 require("plugins.trouble")
 
+-- VSCode-like UI enhancements
+require("plugins.lualine")
+require("plugins.bufferline")
+require("plugins.spectre")
+

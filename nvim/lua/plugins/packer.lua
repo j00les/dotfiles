@@ -117,4 +117,44 @@ return require('packer').startup(function(use)
 			require('which-key').setup()
 		end
 	}
+
+	-- More VSCode-like features
+	use {
+		'nvim-lualine/lualine.nvim',  -- Status line
+		requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+	}
+	use {
+		'akinsho/bufferline.nvim',  -- Tab/buffer line
+		tag = '*',
+		requires = 'nvim-tree/nvim-web-devicons'
+	}
+	use {
+		'rcarriga/nvim-notify',  -- Better notifications
+		config = function()
+			vim.notify = require('notify')
+		end
+	}
+	use {
+		'simrat39/symbols-outline.nvim',  -- Code outline sidebar
+		config = function()
+			require('symbols-outline').setup()
+		end
+	}
+	use {
+		'NvChad/nvim-colorizer.lua',  -- Color highlighter
+		config = function()
+			require('colorizer').setup()
+		end
+	}
+	use {
+		'folke/todo-comments.nvim',  -- Highlight TODO comments
+		requires = 'nvim-lua/plenary.nvim',
+		config = function()
+			require('todo-comments').setup()
+		end
+	}
+	use {
+		'nvim-pack/nvim-spectre',  -- Search/replace panel
+		requires = 'nvim-lua/plenary.nvim'
+	}
 end)
