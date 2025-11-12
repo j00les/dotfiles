@@ -4,19 +4,25 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	use {'neoclide/coc.nvim', branch = 'release'}
 	use 'sainnhe/sonokai'
-	use 'sheerun/vim-polyglot'
-	use 'ryanoasis/vim-devicons'
 	use 'Mofiqul/vscode.nvim'
-	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end} 
-	use 'junegunn/fzf.vim' 
+	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end}
 	use 'mattn/emmet-vim'
 	use({'nvim-treesitter/nvim-treesitter', run =':TSUpdate'})
 	use 'tpope/vim-surround'
-	use 'gregsexton/MatchTag'
-	use 'tpope/vim-commentary'
+	use {
+		'andymass/vim-matchup',
+		config = function()
+			vim.g.matchup_matchparen_offscreen = { method = "popup" }
+		end
+	}
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+			require('Comment').setup()
+		end
+	}
 	use ({'turbio/bracey.vim', run ='npm install --prefix server'})
-	use 'JoosepAlviste/nvim-ts-context-commentstring' 
-	use 'vim-test/vim-test'
+	use 'JoosepAlviste/nvim-ts-context-commentstring'
 	use {
 		"nvim-neotest/neotest",
 		 requires = {
@@ -45,11 +51,12 @@ return require('packer').startup(function(use)
 		'nvim-telescope/telescope-fzf-native.nvim',
 		run = 'make'
 	}
-	use 'voldikss/vim-floaterm'
 	use 'joaohkfaria/vim-jest-snippets'
-	use 'SirVer/ultisnips'
-	use 'mileszs/ack.vim'
-	use 'moll/vim-node'
+	use {
+		'L3MON4D3/LuaSnip',
+		tag = 'v2.*',
+		run = 'make install_jsregexp'
+	}
 	use {
 		'lewis6991/gitsigns.nvim',
 		config = function()

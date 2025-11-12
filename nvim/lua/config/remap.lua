@@ -39,7 +39,9 @@ keyset({"v", "n"},"<C-c>",'"+y')
 -------------------------------------------------------------------
 --OTHERS**
 keyset("t", "<Leader><Esc>", "<C-\\><C-n>") --escape terminal mode
-keyset({"v", "n"}, "<C-/>", ":Commentary<CR>") --comment
+-- Comment.nvim keybindings (using default gcc, but adding VSCode-like Ctrl+/)
+keyset("n", "<C-/>", "<Plug>(comment_toggle_linewise_current)", {noremap = false}) --comment line
+keyset("v", "<C-/>", "<Plug>(comment_toggle_linewise_visual)", {noremap = false}) --comment selection
 keyset("n", "<Leader>s", ":source %<CR>") --source mapping
 --keep cursor at the middle of the screen when scrolling
 keyset("n", "<C-d>", "<C-d>zz")
