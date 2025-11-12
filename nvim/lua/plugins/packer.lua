@@ -96,10 +96,7 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-fugitive'      -- Git commands
 	use {
 		'sindrets/diffview.nvim',
-		requires = 'nvim-lua/plenary.nvim',
-		config = function()
-			require('plugins.diffview')
-		end
+		requires = 'nvim-lua/plenary.nvim'
 	}
 	use 'karb94/neoscroll.nvim'   -- Smooth scrolling
 	use {
