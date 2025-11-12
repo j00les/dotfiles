@@ -41,6 +41,10 @@ return require('packer').startup(function(use)
   	'nvim-telescope/telescope.nvim', tag = '0.1.8',
   	 requires = { {'nvim-lua/plenary.nvim'} }
 	}
+	use {
+		'nvim-telescope/telescope-fzf-native.nvim',
+		run = 'make'
+	}
 	use 'voldikss/vim-floaterm'
 	use 'joaohkfaria/vim-jest-snippets'
 	use 'SirVer/ultisnips'
@@ -57,5 +61,32 @@ return require('packer').startup(function(use)
   use {
   	"rockyzhang24/arctic.nvim",
   	requires = { "rktjmp/lush.nvim" }
+	}
+
+	-- VSCode-like enhancements
+	use 'mg979/vim-visual-multi'  -- Multi-cursor
+	use 'tpope/vim-fugitive'      -- Git commands
+	use {
+		'sindrets/diffview.nvim',
+		requires = 'nvim-lua/plenary.nvim'
+	}
+	use 'karb94/neoscroll.nvim'   -- Smooth scrolling
+	use {
+		'folke/trouble.nvim',
+		requires = 'nvim-tree/nvim-web-devicons'
+	}
+	use {
+		'windwp/nvim-autopairs',
+		config = function()
+			require('nvim-autopairs').setup()
+		end
+	}
+	use {
+		'folke/which-key.nvim',
+		config = function()
+			vim.o.timeout = true
+			vim.o.timeoutlen = 300
+			require('which-key').setup()
+		end
 	}
 end)

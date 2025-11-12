@@ -14,4 +14,6 @@ require("plugins.nvimtree")
 require("plugins.telescope")
 require("plugins.vimtest")
 require("plugins.floaterm")
+require("plugins.neoscroll")
+require("plugins.trouble")
 

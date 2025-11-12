@@ -5,10 +5,7 @@ opts = {silent = true, noremap = true, expr = true, replace_keycodes = false}
 
 -------------------------------------------------------------------
 --AUTOCOMPLETE
-keyset("i", "{", "{}<ESC>ha")
-keyset("i", "[", "[]<ESC>ha")
-keyset("i", "(", "()<ESC>ha")
-keyset("i", "'", "''<ESC>i")
+-- Removed manual auto-pairs mappings - now handled by nvim-autopairs plugin
 
 -------------------------------------------------------------------
 --WINDOWS**
@@ -85,4 +82,13 @@ keyset("n", "<Leader>gb", ":GitBlameToggle<CR>", {silent = true}) -- toggle git 
 keyset("n", "<Leader>gp", "<cmd>lua require('gitsigns').preview_hunk()<CR>", {silent = true}) -- preview hunk
 keyset("n", "<Leader>gn", "<cmd>lua require('gitsigns').next_hunk()<CR>", {silent = true}) -- next hunk
 keyset("n", "<Leader>gP", "<cmd>lua require('gitsigns').prev_hunk()<CR>", {silent = true}) -- previous hunk
+
+-- Vim-fugitive (Git commands)
+keyset("n", "<Leader>gs", ":Git<CR>", {silent = true}) -- git status
+keyset("n", "<Leader>gc", ":Git commit<CR>", {silent = true}) -- git commit
+keyset("n", "<Leader>gps", ":Git push<CR>", {silent = true}) -- git push
+keyset("n", "<Leader>gpl", ":Git pull<CR>", {silent = true}) -- git pull
+keyset("n", "<Leader>gd", ":Gdiffsplit<CR>", {silent = true}) -- git diff
+keyset("n", "<Leader>gv", ":DiffviewOpen<CR>", {silent = true}) -- open diffview
+keyset("n", "<Leader>gvc", ":DiffviewClose<CR>", {silent = true}) -- close diffview
 
