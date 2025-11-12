@@ -9,21 +9,6 @@ require('mason').setup({
 	}
 })
 
--- Auto-install LSP servers
-require('mason-lspconfig').setup({
-	ensure_installed = {
-		'ts_ls',  -- TypeScript/JavaScript
-		'eslint',  -- ESLint
-		'html',  -- HTML
-		'cssls',  -- CSS
-		'pyright',  -- Python
-		'lua_ls',  -- Lua
-		'volar',  -- Vue
-		'jsonls',  -- JSON
-	},
-	automatic_installation = true,
-})
-
 -- LSP Keybindings (applied when LSP attaches)
 local on_attach = function(client, bufnr)
 	local opts = { buffer = bufnr, silent = true }
@@ -46,66 +31,49 @@ end
 -- Get completion capabilities
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
--- Configure LSP servers
-local lspconfig = require('lspconfig')
-
--- TypeScript/JavaScript
-lspconfig.ts_ls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
--- ESLint
-lspconfig.eslint.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
--- HTML
-lspconfig.html.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
--- CSS
-lspconfig.cssls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
--- Python
-lspconfig.pyright.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
--- Lua
-lspconfig.lua_ls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-	settings = {
-		Lua = {
-			diagnostics = {
-				globals = { 'vim' },  -- Recognize 'vim' global
-			},
-			workspace = {
-				library = vim.api.nvim_get_runtime_file("", true),
-				checkThirdParty = false,
-			},
-		},
+-- Auto-install and configure LSP servers using mason-lspconfig handlers
+require('mason-lspconfig').setup({
+	ensure_installed = {
+		'ts_ls',  -- TypeScript/JavaScript
+		'eslint',  -- ESLint
+		'html',  -- HTML
+		'cssls',  -- CSS
+		'pyright',  -- Python
+		'lua_ls',  -- Lua
+		'volar',  -- Vue
+		'jsonls',  -- JSON
 	},
+	automatic_installation = true,
 })
 
--- Vue
-lspconfig.volar.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
+-- Setup handlers for automatic LSP configuration
+require('mason-lspconfig').setup_handlers({
+	-- Default handler (will be called for each installed server without a dedicated handler)
+	function(server_name)
+		require('lspconfig')[server_name].setup({
+			on_attach = on_attach,
+			capabilities = capabilities,
+		})
+	end,
 
--- JSON
-lspconfig.jsonls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
+	-- Dedicated handler for lua_ls
+	['lua_ls'] = function()
+		require('lspconfig').lua_ls.setup({
+			on_attach = on_attach,
+			capabilities = capabilities,
+			settings = {
+				Lua = {
+					diagnostics = {
+						globals = { 'vim' },  -- Recognize 'vim' global
+					},
+					workspace = {
+						library = vim.api.nvim_get_runtime_file("", true),
+						checkThirdParty = false,
+					},
+				},
+			},
+		})
+	end,
 })
 
 -- Diagnostic configuration
