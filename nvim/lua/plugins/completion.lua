@@ -1,5 +1,11 @@
-local cmp = require('cmp')
-local luasnip = require('luasnip')
+-- Check if plugins are installed before configuring
+local has_cmp, cmp = pcall(require, 'cmp')
+local has_luasnip, luasnip = pcall(require, 'luasnip')
+
+if not has_cmp or not has_luasnip then
+	vim.notify('nvim-cmp or LuaSnip not installed yet. Run :PackerSync', vim.log.levels.WARN)
+	return
+end
 
 cmp.setup({
 	snippet = {
