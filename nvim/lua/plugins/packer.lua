@@ -64,7 +64,10 @@ return require('packer').startup(function(use)
 		end
 	}
 	use "lukas-reineke/indent-blankline.nvim"
-	use "f-person/git-blame.nvim"
+	use {
+		"f-person/git-blame.nvim",
+		commit = "08ff65a",  -- Pin to stable commit
+	}
   use {
   	"rockyzhang24/arctic.nvim",
   	requires = { "rktjmp/lush.nvim" }
