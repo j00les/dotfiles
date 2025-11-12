@@ -1,1 +1,1304 @@
-{}
+{
+  "coc-python|global": {
+    "INTERPRETERS_CACHE_v3_CondaEnvFileService": [],
+    "INTERPRETERS_CACHE_v3_CondaEnvService": [],
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "d49f297dc5fcff4b06e7419710bb66ce2e702e2a3c778ce881b124f9aab9151ce261ef06cc073830937cb5a1e6f6434f11eedb5d75893cc84cba1f2a24692fe2"
+      },
+      "expiry": 1725799464118
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "765c8c78c2b1060b1aa834405bae8d9fa9d7f4782b6b0030868a363057ddb21d749565433e56b13dcf6ded13f225ad4abf98d63757b160f9cb612778a99f2858"
+      },
+      "expiry": 1725799464116
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b"
+      },
+      "expiry": 1725799464122
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.12/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "5c2c30abf5af64c4207cc384e1ab3c9b0b82b7f169a09029b7b8b80b0808d1e26d905f23b2d35e422e9e29347c48e5ab8e622e78d38dd09ce785ff4a48cef9f0"
+      },
+      "expiry": 1725799464109
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "d49f297dc5fcff4b06e7419710bb66ce2e702e2a3c778ce881b124f9aab9151ce261ef06cc073830937cb5a1e6f6434f11eedb5d75893cc84cba1f2a24692fe2"
+      },
+      "expiry": 1725799464111
+    },
+    "INTERPRETERS_CACHE_v3_CurrentPathService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+        "type": "Unknown"
+      }
+    ],
+    "/opt/homebrew/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "dc0a8586fb7f14d0d6bd58893a125cdad56b90ed3d0dd4e544e1b0a20824858ec3666032f8fc9023abf1bc38304ac9a23b2a6a83bd642a2c94a27287076729bd"
+      },
+      "expiry": 1725799464116
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/opt/python@3.12/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "ac80087f1295328240407682139d51e1a5c4bf3a1ba01f7f16fe4886f3dd807c344bedbfaf97e96400f57d1276d7ad25eefa559b34614d6fe3ed8bf09aefda30"
+      },
+      "expiry": 1725799464117
+    },
+    "/opt/homebrew/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/opt/homebrew/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "227eed6d736de4641b0605231a9ea5550d103c5e1d623a5a0b43981e144c9ad980f45320ef1315caf29fb0753371037fd27cc7a565416e317179b1b83e00d340"
+      },
+      "expiry": 1725799464121
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.5 64-bit ('venv': venv)",
+        "hash": "d49f297dc5fcff4b06e7419710bb66ce2e702e2a3c778ce881b124f9aab9151ce261ef06cc073830937cb5a1e6f6434f11eedb5d75893cc84cba1f2a24692fe2-5b3643c875df9a6dc27e031c3d0bd9c6"
+      },
+      "expiry": 1725799464129
+    },
+    "/Users/nabiel/.pyenv/versions/3.10.14/bin/python.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "5d45644bc056c1778e529e5d5eabf9840141a4312ab36d173eb81910ea57656b1d3ec423aadba00b96769321315c0a3e2ef60b371f7d65de8142ee52ce218cf9"
+      },
+      "expiry": 1725799464137
+    },
+    "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "1704f9ba04c886f79e1266ebb351b424e018515b20b26e9c18d57dd5bd2da0f25a7ac69c074c9b44bfa48e43b7ba3b3d2af75ec1a4e83230d6d0a45f084332b3"
+      },
+      "expiry": 1725799464137
+    },
+    "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3.10.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "16a3e595261d80f0f156c4870c41885e3d5b9d98443a244fa7db0de0baf7e9ed938e1eb8990b646d5f5e2ccb16c73d91a565f9398d57af0dbd1c883f01187672"
+      },
+      "expiry": 1725799464138
+    },
+    "INTERPRETERS_CACHE_v3_VirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "5d45644bc056c1778e529e5d5eabf9840141a4312ab36d173eb81910ea57656b1d3ec423aadba00b96769321315c0a3e2ef60b371f7d65de8142ee52ce218cf9",
+        "envName": "3.10.14",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "1704f9ba04c886f79e1266ebb351b424e018515b20b26e9c18d57dd5bd2da0f25a7ac69c074c9b44bfa48e43b7ba3b3d2af75ec1a4e83230d6d0a45f084332b3",
+        "envName": "3.10.14",
+        "type": "Pyenv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python3.10",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.10.14-final",
+          "major": 3,
+          "minor": 10,
+          "patch": 14,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.10.14-final"
+        },
+        "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+        "fileHash": "16a3e595261d80f0f156c4870c41885e3d5b9d98443a244fa7db0de0baf7e9ed938e1eb8990b646d5f5e2ccb16c73d91a565f9398d57af0dbd1c883f01187672",
+        "envName": "3.10.14",
+        "type": "Pyenv"
+      }
+    ],
+    "/usr/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6"
+      },
+      "expiry": 1725799464219
+    },
+    "INTERPRETERS_CACHE_v3_KnownPathsService": [
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "5ee794ea172d73d48cee56bf0952909cad33749a4c133af15a531a32de2a9a1cb67b638895f460c5299e613ab8f55751a619d166c86b39af5c4287d5db3545bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "001a2ad67e739530275512be59a8c5f11d60f0569495c5d29f266a264416b6a373f66a1fc919de90ae09cdd0fe224edfb0b5ae817c55295592d9bf00b8db9701",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "5ee794ea172d73d48cee56bf0952909cad33749a4c133af15a531a32de2a9a1cb67b638895f460c5299e613ab8f55751a619d166c86b39af5c4287d5db3545bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "5ee794ea172d73d48cee56bf0952909cad33749a4c133af15a531a32de2a9a1cb67b638895f460c5299e613ab8f55751a619d166c86b39af5c4287d5db3545bd",
+        "type": "Unknown"
+      },
+      {
+        "architecture": 3,
+        "path": "/usr/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.9.6-final",
+          "major": 3,
+          "minor": 9,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.9.6-final"
+        },
+        "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+        "fileHash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6",
+        "type": "Unknown"
+      }
+    ],
+    "PipEnvInformation": [],
+    "/Users/nabiel/.pyenv/versions/3.10.14/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.10.14 64-bit ('3.10.14': pyenv)",
+        "hash": "5d45644bc056c1778e529e5d5eabf9840141a4312ab36d173eb81910ea57656b1d3ec423aadba00b96769321315c0a3e2ef60b371f7d65de8142ee52ce218cf9-487d2fd8b9e522348df18ce92935446d"
+      },
+      "expiry": 1725799464244
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.5 64-bit ('venv': venv)",
+        "hash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b-6cc13f85975e5fc8d0bfcd8427dfe841"
+      },
+      "expiry": 1725799464245
+    },
+    "/opt/homebrew/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.5 64-bit",
+        "hash": "dc0a8586fb7f14d0d6bd58893a125cdad56b90ed3d0dd4e544e1b0a20824858ec3666032f8fc9023abf1bc38304ac9a23b2a6a83bd642a2c94a27287076729bd-8fc7b2a2e74d9f36e38b70bbb6e69617"
+      },
+      "expiry": 1725799464245
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.5 64-bit",
+        "hash": "5c2c30abf5af64c4207cc384e1ab3c9b0b82b7f169a09029b7b8b80b0808d1e26d905f23b2d35e422e9e29347c48e5ab8e622e78d38dd09ce785ff4a48cef9f0-1195875e932543fcb78fb7cad2d9efbc"
+      },
+      "expiry": 1725799464248
+    },
+    "/usr/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.9.6 64-bit",
+        "hash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6-f9f430102aa204e65e299543bacb6c24"
+      },
+      "expiry": 1725799464259
+    },
+    "/Users/nabiel/.pyenv/versions/3.10.14/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5d45644bc056c1778e529e5d5eabf9840141a4312ab36d173eb81910ea57656b1d3ec423aadba00b96769321315c0a3e2ef60b371f7d65de8142ee52ce218cf9",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/nabiel/.pyenv/versions/3.10.14/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.10.14-final",
+            "major": 3,
+            "minor": 10,
+            "patch": 14,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.10.14-final"
+          },
+          "sysPrefix": "/Users/nabiel/.pyenv/versions/3.10.14",
+          "fileHash": "5d45644bc056c1778e529e5d5eabf9840141a4312ab36d173eb81910ea57656b1d3ec423aadba00b96769321315c0a3e2ef60b371f7d65de8142ee52ce218cf9",
+          "envName": "3.10.14",
+          "type": "Pyenv",
+          "displayName": "Python 3.10.14 64-bit ('3.10.14': pyenv)"
+        }
+      },
+      "expiry": 1725799464272
+    },
+    "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b",
+        "info": {
+          "architecture": 3,
+          "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.5-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.5-final"
+          },
+          "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+          "fileHash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b",
+          "envName": "venv",
+          "type": "Venv",
+          "displayName": "Python 3.12.5 64-bit ('venv': venv)"
+        }
+      },
+      "expiry": 1725799464275
+    },
+    "/opt/homebrew/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "dc0a8586fb7f14d0d6bd58893a125cdad56b90ed3d0dd4e544e1b0a20824858ec3666032f8fc9023abf1bc38304ac9a23b2a6a83bd642a2c94a27287076729bd",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.5-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.5-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "dc0a8586fb7f14d0d6bd58893a125cdad56b90ed3d0dd4e544e1b0a20824858ec3666032f8fc9023abf1bc38304ac9a23b2a6a83bd642a2c94a27287076729bd",
+          "type": "Unknown",
+          "displayName": "Python 3.12.5 64-bit"
+        }
+      },
+      "expiry": 1725799464278
+    },
+    "/opt/homebrew/opt/python@3.12/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "5c2c30abf5af64c4207cc384e1ab3c9b0b82b7f169a09029b7b8b80b0808d1e26d905f23b2d35e422e9e29347c48e5ab8e622e78d38dd09ce785ff4a48cef9f0",
+        "info": {
+          "architecture": 3,
+          "path": "/opt/homebrew/opt/python@3.12/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.5-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 5,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.5-final"
+          },
+          "sysPrefix": "/opt/homebrew/opt/python@3.12/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "5c2c30abf5af64c4207cc384e1ab3c9b0b82b7f169a09029b7b8b80b0808d1e26d905f23b2d35e422e9e29347c48e5ab8e622e78d38dd09ce785ff4a48cef9f0",
+          "type": "Unknown",
+          "displayName": "Python 3.12.5 64-bit"
+        }
+      },
+      "expiry": 1725799464280
+    },
+    "/usr/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.9.6-final",
+            "major": 3,
+            "minor": 9,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.9.6-final"
+          },
+          "sysPrefix": "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9",
+          "fileHash": "f001aae45ef176224da71d3c9c28d96e3b488d40e91642e08be371ed2408fa38ac6d31197036b79f4cdb8d1aabc37758a8054be505c63e224ddb527e548c9cc6",
+          "type": "Unknown",
+          "displayName": "Python 3.9.6 64-bit"
+        }
+      },
+      "expiry": 1725799464282
+    },
+    "/usr/local/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "5ee794ea172d73d48cee56bf0952909cad33749a4c133af15a531a32de2a9a1cb67b638895f460c5299e613ab8f55751a619d166c86b39af5c4287d5db3545bd"
+      },
+      "expiry": 1725800250731
+    },
+    "/usr/local/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/usr/local/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5"
+      },
+      "expiry": 1725800250730
+    },
+    "preferredGlobalPyInterpreter": {
+      "architecture": 3,
+      "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.6-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.6-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+      "type": "Unknown",
+      "displayName": "Python 3.12.6 64-bit"
+    },
+    "InterpreterAutoSeletionRule-currentPath": {
+      "architecture": 3,
+      "path": "/usr/local/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.6-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.6-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+      "type": "Unknown"
+    },
+    "/usr/local/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.6 64-bit",
+        "hash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5-4f9d8d87bc9d2d8a56b5ed76c862d55d"
+      },
+      "expiry": 1725800250778
+    },
+    "InterpreterAutoSeletionRule-system": {
+      "architecture": 3,
+      "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.6-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.6-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+      "type": "Unknown",
+      "displayName": "Python 3.12.6 64-bit"
+    },
+    "/usr/local/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+        "info": {
+          "architecture": 3,
+          "path": "/usr/local/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.6-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.6-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "bd8f0bc8a73fa0766a5503044c806b21754a68a9e0ef988129bd1bffcca17d8ed2409b16dccaef47cd05266ab24d096f44f4a016b162c6811d6aa0e391bb98e5",
+          "type": "Unknown",
+          "displayName": "Python 3.12.6 64-bit"
+        }
+      },
+      "expiry": 1725800250789
+    },
+    "InterpreterAutoSeletionRule-cachedInterpreters": {
+      "architecture": 3,
+      "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.6-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 6,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.6-final"
+      },
+      "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+      "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+      "type": "Unknown",
+      "displayName": "Python 3.12.6 64-bit"
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0"
+      },
+      "expiry": 1725873212192
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12.v3": {
+      "data": {
+        "architecture": 3,
+        "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.6-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 6,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.6-final"
+        },
+        "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+        "fileHash": "001a2ad67e739530275512be59a8c5f11d60f0569495c5d29f266a264416b6a373f66a1fc919de90ae09cdd0fe224edfb0b5ae817c55295592d9bf00b8db9701"
+      },
+      "expiry": 1725873212193
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.interpreter.displayName.v7": {
+      "data": {
+        "displayName": "Python 3.12.6 64-bit",
+        "hash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0-dc54b90847e4b2df9b25392bfda805c1"
+      },
+      "expiry": 1725873213408
+    },
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3.interpreter.Details.v7": {
+      "data": {
+        "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+        "info": {
+          "architecture": 3,
+          "path": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+          "version": {
+            "options": {
+              "loose": false,
+              "includePrerelease": false
+            },
+            "loose": false,
+            "raw": "3.12.6-final",
+            "major": 3,
+            "minor": 12,
+            "patch": 6,
+            "prerelease": [
+              "final"
+            ],
+            "build": [],
+            "version": "3.12.6-final"
+          },
+          "sysPrefix": "/Library/Frameworks/Python.framework/Versions/3.12",
+          "fileHash": "04148b85c30b14e8807866b7403146a51aabc2b126d6cf366c9be2a152550bbc14b59035b4a536b137a8839bd965b02a9aa65e1d22c6bc9f1d1eff1b8f552ba0",
+          "type": "Unknown",
+          "displayName": "Python 3.12.6 64-bit"
+        }
+      },
+      "expiry": 1725873213425
+    },
+    "pylint_DisableLinterInstallPrompt": true
+  },
+  "coc-python|/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot": {
+    "INTERPRETERS_CACHE_v3_PipEnvService:0b6edafedb5006d5bc5964efa336244d": [],
+    "SelectedPythonPath": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3",
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService:0b6edafedb5006d5bc5964efa336244d": [
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "d49f297dc5fcff4b06e7419710bb66ce2e702e2a3c778ce881b124f9aab9151ce261ef06cc073830937cb5a1e6f6434f11eedb5d75893cc84cba1f2a24692fe2",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "765c8c78c2b1060b1aa834405bae8d9fa9d7f4782b6b0030868a363057ddb21d749565433e56b13dcf6ded13f225ad4abf98d63757b160f9cb612778a99f2858",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "INTERPRETERS_CACHE_v3_PipEnvService": [],
+    "INTERPRETERS_CACHE_v3_WorkspaceVirtualEnvService": [
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "223959d98f5cde834c74f9085918b77af59b309fa6496ff7711406484a68837dee7c2af4b24cb9ff7f4a005f86a8fe286b123655dda17d1db091a97eb0adad6b",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "d49f297dc5fcff4b06e7419710bb66ce2e702e2a3c778ce881b124f9aab9151ce261ef06cc073830937cb5a1e6f6434f11eedb5d75893cc84cba1f2a24692fe2",
+        "envName": "venv",
+        "type": "Venv"
+      },
+      {
+        "architecture": 3,
+        "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.12",
+        "version": {
+          "options": {
+            "loose": false,
+            "includePrerelease": false
+          },
+          "loose": false,
+          "raw": "3.12.5-final",
+          "major": 3,
+          "minor": 12,
+          "patch": 5,
+          "prerelease": [
+            "final"
+          ],
+          "build": [],
+          "version": "3.12.5-final"
+        },
+        "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+        "fileHash": "765c8c78c2b1060b1aa834405bae8d9fa9d7f4782b6b0030868a363057ddb21d749565433e56b13dcf6ded13f225ad4abf98d63757b160f9cb612778a99f2858",
+        "envName": "venv",
+        "type": "Venv"
+      }
+    ],
+    "autoSelectedWorkspacePythonInterpreter-/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot": {
+      "architecture": 3,
+      "path": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv/bin/python3.12",
+      "version": {
+        "options": {
+          "loose": false,
+          "includePrerelease": false
+        },
+        "loose": false,
+        "raw": "3.12.5-final",
+        "major": 3,
+        "minor": 12,
+        "patch": 5,
+        "prerelease": [
+          "final"
+        ],
+        "build": [],
+        "version": "3.12.5-final"
+      },
+      "sysPrefix": "/Users/nabiel/Repos/LinkedIn-Easy-Apply-Bot/venv",
+      "fileHash": "765c8c78c2b1060b1aa834405bae8d9fa9d7f4782b6b0030868a363057ddb21d749565433e56b13dcf6ded13f225ad4abf98d63757b160f9cb612778a99f2858",
+      "envName": "venv",
+      "type": "Venv"
+    }
+  },
+  "coc-json|global": {
+    "json-schema-cache": {
+      "https://json.schemastore.org/package.json": {
+        "etag": "W/\"69139fc2-ad0b\"",
+        "fileName": "473f72b44c2905902dfbcc770aab7f7a.schema.json",
+        "updateTime": 1762949336540
+      },
+      "https://json.schemastore.org/ava.json": {
+        "etag": "W/\"69139fc2-19f0\"",
+        "fileName": "635f57185b22bce9d3a56c68f5da4ad7.schema.json",
+        "updateTime": 1762949337508
+      },
+      "https://json.schemastore.org/prettierrc.json": {
+        "etag": "W/\"69139fc1-348e\"",
+        "fileName": "ea5ab10330a3ab77dfd6d00a735b0925.schema.json",
+        "updateTime": 1762949337514
+      },
+      "https://json.schemastore.org/eslintrc.json": {
+        "etag": "W/\"69139fc2-d796\"",
+        "fileName": "c5064f140d4cfdbf4d6fbe68f68abbb1.schema.json",
+        "updateTime": 1762949337523
+      },
+      "https://json.schemastore.org/stylelintrc.json": {
+        "etag": "W/\"69139fc1-1c1fa\"",
+        "fileName": "000bfbdd14d2fb8ec5b0d59bec32ef98.schema.json",
+        "updateTime": 1762949337526
+      },
+      "https://json.schemastore.org/jscpd.json": {
+        "etag": "W/\"69139fc2-298b\"",
+        "fileName": "22bfc1ab1ff56aae62322f6ce45dab5a.schema.json",
+        "updateTime": 1762949337674
+      },
+      "https://json.schemastore.org/semantic-release.json": {
+        "etag": "W/\"69139fc1-e26\"",
+        "fileName": "fbc95702ba6eddb3e2de4f52e31ca82a.schema.json",
+        "updateTime": 1762949337679
+      },
+      "https://json.schemastore.org/partial-eslint-plugins.json": {
+        "etag": "W/\"69139fc1-72d5a\"",
+        "fileName": "fc7bb6e733b774ce47be6006f0b75b87.schema.json",
+        "updateTime": 1762949339265
+      }
+    }
+  }
+}
