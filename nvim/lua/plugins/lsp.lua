@@ -6,16 +6,7 @@ require('mason').setup({
 			package_pending = "➜",
 			package_uninstalled = "✗"
 		}
-	},
-	-- Optional dependencies configuration
-	-- Note: Many healthcheck warnings for missing tools (wget, cargo, luarocks, java, julia)
-	-- are expected and safe to ignore unless you need those specific language servers.
-	-- - wget: Not needed (curl is available and preferred)
-	-- - cargo: Only needed for Rust-based tools
-	-- - luarocks: Only needed for Lua-specific tools
-	-- - java/javac: Only needed for Java language servers
-	-- - julia: Only needed for Julia language servers
-	max_concurrent_installers = 4,
+	}
 })
 
 -- LSP Keybindings (applied when LSP attaches)
