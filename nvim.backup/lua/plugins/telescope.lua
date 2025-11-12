@@ -1,5 +1,8 @@
 local builtin = require('telescope.builtin')
 
+-- Load fzf extension for better performance
+require('telescope').load_extension('fzf')
+
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<leader>p', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})

@@ -8,11 +8,11 @@ require("config.color")
 
 require("plugins.treesitter")
 require("plugins.nvim-web-devicons")
-require("plugins.coc")
-require("plugins.fzf")
+require("plugins.lsp")  -- Native LSP (replaced CoC)
+require("plugins.completion")  -- nvim-cmp autocompletion
 require("plugins.toggleterm")
 require("plugins.nvimtree")
 require("plugins.telescope")
-require("plugins.vimtest")
-require("plugins.floaterm")
+require("plugins.neoscroll")
+require("plugins.trouble")
 

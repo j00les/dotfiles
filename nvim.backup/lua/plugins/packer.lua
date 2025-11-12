@@ -2,21 +2,45 @@ vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)  
 	use 'wbthomason/packer.nvim'
-	use {'neoclide/coc.nvim', branch = 'release'}
+
+	-- Modern LSP Setup (replaced CoC)
+	use 'neovim/nvim-lspconfig'  -- Native LSP
+	use {
+		'williamboman/mason.nvim',  -- LSP installer
+		config = function()
+			require('mason').setup()
+		end
+	}
+	use 'williamboman/mason-lspconfig.nvim'  -- Bridge mason & lspconfig
+
+	-- Autocompletion (VSCode-like)
+	use 'hrsh7th/nvim-cmp'  -- Completion engine
+	use 'hrsh7th/cmp-nvim-lsp'  -- LSP completion source
+	use 'hrsh7th/cmp-buffer'  -- Buffer completion
+	use 'hrsh7th/cmp-path'  -- Path completion
+	use 'hrsh7th/cmp-cmdline'  -- Command line completion
+	use 'saadparwaiz1/cmp_luasnip'  -- Snippet completion
+
 	use 'sainnhe/sonokai'
-	use 'sheerun/vim-polyglot'
-	use 'ryanoasis/vim-devicons'
 	use 'Mofiqul/vscode.nvim'
-	use {'junegunn/fzf',  run = function() vim.fn['fzf#install'](0) end} 
-	use 'junegunn/fzf.vim' 
+	use {'junegunn/fzf',  run = './install --bin' }
 	use 'mattn/emmet-vim'
 	use({'nvim-treesitter/nvim-treesitter', run =':TSUpdate'})
 	use 'tpope/vim-surround'
-	use 'gregsexton/MatchTag'
-	use 'tpope/vim-commentary'
+	use {
+		'andymass/vim-matchup',
+		config = function()
+			vim.g.matchup_matchparen_offscreen = { method = "popup" }
+		end
+	}
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+			require('Comment').setup()
+		end
+	}
 	use ({'turbio/bracey.vim', run ='npm install --prefix server'})
-	use 'JoosepAlviste/nvim-ts-context-commentstring' 
-	use 'vim-test/vim-test'
+	use 'JoosepAlviste/nvim-ts-context-commentstring'
 	use {
 		"nvim-neotest/neotest",
 		 requires = {
@@ -41,11 +65,16 @@ return require('packer').startup(function(use)
   	'nvim-telescope/telescope.nvim', tag = '0.1.8',
   	 requires = { {'nvim-lua/plenary.nvim'} }
 	}
-	use 'voldikss/vim-floaterm'
+	use {
+		'nvim-telescope/telescope-fzf-native.nvim',
+		run = 'make'
+	}
 	use 'joaohkfaria/vim-jest-snippets'
-	use 'SirVer/ultisnips'
-	use 'mileszs/ack.vim'
-	use 'moll/vim-node'
+	use {
+		'L3MON4D3/LuaSnip',
+		tag = 'v2.*',
+		run = 'make install_jsregexp'
+	}
 	use {
 		'lewis6991/gitsigns.nvim',
 		config = function()
@@ -53,9 +82,42 @@ return require('packer').startup(function(use)
 		end
 	}
 	use "lukas-reineke/indent-blankline.nvim"
-	use "f-person/git-blame.nvim"
+	use {
+		"f-person/git-blame.nvim",
+		commit = "08ff65a",  -- Pin to stable commit
+	}
   use {
   	"rockyzhang24/arctic.nvim",
   	requires = { "rktjmp/lush.nvim" }
+	}
+
+	-- VSCode-like enhancements
+	use 'mg979/vim-visual-multi'  -- Multi-cursor
+	use 'tpope/vim-fugitive'      -- Git commands
+	use {
+		'sindrets/diffview.nvim',
+		requires = 'nvim-lua/plenary.nvim',
+		config = function()
+			require('plugins.diffview')
+		end
+	}
+	use 'karb94/neoscroll.nvim'   -- Smooth scrolling
+	use {
+		'folke/trouble.nvim',
+		requires = 'nvim-tree/nvim-web-devicons'
+	}
+	use {
+		'windwp/nvim-autopairs',
+		config = function()
+			require('nvim-autopairs').setup()
+		end
+	}
+	use {
+		'folke/which-key.nvim',
+		config = function()
+			vim.o.timeout = true
+			vim.o.timeoutlen = 300
+			require('which-key').setup()
+		end
 	}
 end)
