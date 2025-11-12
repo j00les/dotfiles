@@ -28,53 +28,59 @@ local on_attach = function(client, bufnr)
 	vim.keymap.set('n', '<Leader>e', vim.diagnostic.open_float, opts)  -- Show diagnostic
 end
 
--- Get completion capabilities
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
+-- Get completion capabilities (check if cmp_nvim_lsp is available)
+local has_cmp, cmp_nvim_lsp = pcall(require, 'cmp_nvim_lsp')
+local capabilities = has_cmp and cmp_nvim_lsp.default_capabilities() or vim.lsp.protocol.make_client_capabilities()
 
--- Auto-install and configure LSP servers using mason-lspconfig handlers
-require('mason-lspconfig').setup({
-	ensure_installed = {
-		'ts_ls',  -- TypeScript/JavaScript
-		'eslint',  -- ESLint
-		'html',  -- HTML
-		'cssls',  -- CSS
-		'pyright',  -- Python
-		'lua_ls',  -- Lua
-		'volar',  -- Vue
-		'jsonls',  -- JSON
-	},
-	automatic_installation = true,
-})
+-- Auto-install and configure LSP servers using mason-lspconfig
+local has_mason_lspconfig, mason_lspconfig = pcall(require, 'mason-lspconfig')
+if has_mason_lspconfig then
+	mason_lspconfig.setup({
+		ensure_installed = {
+			'ts_ls',  -- TypeScript/JavaScript
+			'eslint',  -- ESLint
+			'html',  -- HTML
+			'cssls',  -- CSS
+			'pyright',  -- Python
+			'lua_ls',  -- Lua
+			'volar',  -- Vue
+			'jsonls',  -- JSON
+		},
+		automatic_installation = true,
+	})
 
--- Setup handlers for automatic LSP configuration
-require('mason-lspconfig').setup_handlers({
-	-- Default handler (will be called for each installed server without a dedicated handler)
-	function(server_name)
-		require('lspconfig')[server_name].setup({
-			on_attach = on_attach,
-			capabilities = capabilities,
-		})
-	end,
+	-- Setup handlers for automatic LSP configuration
+	mason_lspconfig.setup_handlers({
+		-- Default handler (will be called for each installed server without a dedicated handler)
+		function(server_name)
+			require('lspconfig')[server_name].setup({
+				on_attach = on_attach,
+				capabilities = capabilities,
+			})
+		end,
 
-	-- Dedicated handler for lua_ls
-	['lua_ls'] = function()
-		require('lspconfig').lua_ls.setup({
-			on_attach = on_attach,
-			capabilities = capabilities,
-			settings = {
-				Lua = {
-					diagnostics = {
-						globals = { 'vim' },  -- Recognize 'vim' global
-					},
-					workspace = {
-						library = vim.api.nvim_get_runtime_file("", true),
-						checkThirdParty = false,
+		-- Dedicated handler for lua_ls
+		['lua_ls'] = function()
+			require('lspconfig').lua_ls.setup({
+				on_attach = on_attach,
+				capabilities = capabilities,
+				settings = {
+					Lua = {
+						diagnostics = {
+							globals = { 'vim' },  -- Recognize 'vim' global
+						},
+						workspace = {
+							library = vim.api.nvim_get_runtime_file("", true),
+							checkThirdParty = false,
+						},
 					},
 				},
-			},
-		})
-	end,
-})
+			})
+		end,
+	})
+else
+	vim.notify('mason-lspconfig not installed yet. Run :PackerSync', vim.log.levels.WARN)
+end
 
 -- Diagnostic configuration
 vim.diagnostic.config({
