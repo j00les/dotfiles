@@ -1,10 +1,8 @@
 -- Diffview configuration
+-- Note: The Mercurial (hg) healthcheck warning is expected and harmless if you only use Git.
+-- Diffview supports both Git and Mercurial, but the hg warning can be safely ignored.
 require('diffview').setup({
-	-- Disable Mercurial support to prevent healthcheck warning
-	-- By setting hg_cmd to false, diffview won't check for Mercurial
-	hg_cmd = false,
-
-	-- Use git only
+	-- Use git (Mercurial warning in healthcheck is harmless)
 	use_icons = true,
 	enhanced_diff_hl = false,
 
