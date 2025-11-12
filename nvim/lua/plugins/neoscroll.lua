@@ -1,7 +1,8 @@
 require('neoscroll').setup({
   -- All these keys will be mapped to their corresponding default scrolling animation
+  -- Removed <C-e> to avoid conflict with file tree toggle
   mappings = {'<C-u>', '<C-d>', '<C-b>', '<C-f>',
-              '<C-y>', '<C-e>', 'zt', 'zz', 'zb'},
+              '<C-y>', 'zt', 'zz', 'zb'},
   hide_cursor = true,          -- Hide cursor while scrolling
   stop_eof = true,             -- Stop at <EOF> when scrolling downwards
   respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
